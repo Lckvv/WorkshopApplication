@@ -1,0 +1,37 @@
+[
+{"type":"header","version":"4.7.9","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"app_workshop"},
+{"type":"table","name":"role","database":"app_workshop","data":
+[
+{"name":"ADMIN"},
+{"name":"USER"}
+]
+}
+,{"type":"table","name":"task","database":"app_workshop","data":
+[
+{"id":"1","date":"2018-03-24","description":"Seperate all keys","start_time":"13:00","stop_time":"15:00","user_email":"lckorone@gmail.com"},
+{"id":"2","date":"2018-03-25","description":"New task","start_time":"02:03","stop_time":"05:05","user_email":"lckorone@gmail.com"},
+{"id":"3","date":"2018-03-27","description":"Test","start_time":"05:23","stop_time":"10:15","user_email":"admin@mail.com"}
+]
+}
+,{"type":"table","name":"user","database":"app_workshop","data":
+[
+{"email":"admin@mail.com","name":"Admin","password":"$2a$10$fu5AisjqpoCtSLBrfb.Teu2Sin06WsbH3D8oHyU7QWnkI21ATTcv."},
+{"email":"Barszczyk@wp.pl","name":"Kamil","password":"$2a$10$Kot45JaOwVF9zZgpyAf4RuAg\/yt1ljvDPp8FwuV7ToK9\/9UeUVU5S"},
+{"email":"Jacek.Krzynowek@op.pl","name":"Jacek","password":"$2a$10$vxMnUc1Q1DFUU0oSmS6\/zuvlScXTiT.sV7btWU8KI9gkSdmDSu1PG"},
+{"email":"Jan.Kowalski@gmail.com","name":"Jan","password":"$2a$10$2qHs6VjT381O\/ntf.IY2H.dtdRSGLW029vOiAPEUPNTFKRQH0\/.MO"},
+{"email":"lckorone@gmail.com","name":"Lucek","password":"$2a$10$KVVBk\/7.zPRJT8Ynj338AOgSghwzsQOMVgI6zUuGuNuudij6lCNGK"},
+{"email":"Przyklad@gmail.com","name":"Marcin","password":"$2a$10$rim0uzkwX.MyvRuo594fwOKa5zgyuZhNCNs2WI90ExnHn7lVg.8si"}
+]
+}
+,{"type":"table","name":"user_roles","database":"app_workshop","data":
+[
+{"user_email":"lckorone@gmail.com","role_name":"USER"},
+{"user_email":"Przyklad@gmail.com","role_name":"USER"},
+{"user_email":"Jacek.Krzynowek@op.pl","role_name":"USER"},
+{"user_email":"Barszczyk@wp.pl","role_name":"USER"},
+{"user_email":"Jan.Kowalski@gmail.com","role_name":"USER"},
+{"user_email":"admin@mail.com","role_name":"ADMIN"}
+]
+}
+]
